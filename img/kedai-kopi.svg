@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <title>Ilustrasi cangkir kopi hangat di atas meja kayu</title>
+  <defs>
+    <linearGradient id="latar" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#332016"/>
+      <stop offset="0.55" stop-color="#45291b"/>
+      <stop offset="1" stop-color="#24150f"/>
+    </linearGradient>
+    <linearGradient id="meja" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d452b"/>
+      <stop offset="1" stop-color="#3c2416"/>
+    </linearGradient>
+    <linearGradient id="cangkir" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#fffaf1"/>
+      <stop offset="0.6" stop-color="#f3e4d0"/>
+      <stop offset="1" stop-color="#ddc4a7"/>
+    </linearGradient>
+    <linearGradient id="kopi" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5634"/>
+      <stop offset="1" stop-color="#472716"/>
+    </linearGradient>
+    <radialGradient id="cahaya" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#ffcf94" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#ffcf94" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bayang" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#120a06" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#120a06" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignet" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.55" stop-color="#120a06" stop-opacity="0"/>
+      <stop offset="1" stop-color="#120a06" stop-opacity="0.55"/>
+    </radialGradient>
+    <filter id="kabut" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#latar)"/>
+  <path d="M 250 780 L 250 330 A 350 350 0 0 1 950 330 L 950 780" fill="none" stroke="#d9b48c" stroke-opacity="0.16" stroke-width="2"/>
+  <path d="M 310 780 L 310 345 A 290 290 0 0 1 890 345 L 890 780" fill="none" stroke="#d9b48c" stroke-opacity="0.1" stroke-width="2"/>
+  <ellipse cx="600" cy="410" rx="430" ry="370" fill="url(#cahaya)"/>
+
+  <g filter="url(#kabut)" fill="none" stroke="#ffe2bd" stroke-width="11" stroke-linecap="round" opacity="0.42">
+    <path d="M 522 342 C 496 300 540 278 518 236 C 502 204 534 180 528 150"/>
+    <path d="M 600 330 C 574 282 624 262 600 208 C 585 174 612 150 606 118"/>
+    <path d="M 678 342 C 652 300 696 278 674 236 C 658 204 690 184 684 154"/>
+  </g>
+
+  <rect x="0" y="600" width="1200" height="200" fill="url(#meja)"/>
+  <rect x="0" y="600" width="1200" height="5" fill="#9a6842" opacity="0.85"/>
+  <g stroke="#2c190e" stroke-opacity="0.28" stroke-width="2" fill="none">
+    <path d="M 0 646 C 260 638 430 656 640 648 C 850 640 1010 654 1200 646"/>
+    <path d="M 0 712 C 240 704 500 722 760 712 C 950 705 1080 716 1200 710"/>
+    <path d="M 0 768 C 300 760 560 776 860 766 C 1000 762 1120 768 1200 764"/>
+  </g>
+  <ellipse cx="600" cy="656" rx="370" ry="64" fill="url(#bayang)"/>
+
+  <g>
+    <g transform="translate(292 688) rotate(-20)">
+      <ellipse rx="36" ry="23" fill="#2a170e"/>
+      <path d="M -27 1 C -12 -9 12 9 27 1" fill="none" stroke="#7c4b2d" stroke-width="4" stroke-linecap="round"/>
+      <ellipse cx="-8" cy="-7" rx="9" ry="4" fill="#5c3620" opacity="0.8"/>
+    </g>
+    <g transform="translate(902 700) rotate(24)">
+      <ellipse rx="34" ry="22" fill="#2a170e"/>
+      <path d="M -25 0 C -11 -8 11 8 25 0" fill="none" stroke="#7c4b2d" stroke-width="4" stroke-linecap="round"/>
+      <ellipse cx="-7" cy="-6" rx="8" ry="4" fill="#5c3620" opacity="0.8"/>
+    </g>
+    <g transform="translate(844 650) rotate(8)">
+      <ellipse rx="28" ry="18" fill="#331c10"/>
+      <path d="M -21 0 C -9 -7 9 7 21 0" fill="none" stroke="#6d4227" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <ellipse cx="600" cy="628" rx="292" ry="70" fill="#cdb193"/>
+  <ellipse cx="600" cy="616" rx="286" ry="66" fill="#f7ecdd"/>
+  <ellipse cx="600" cy="612" rx="238" ry="52" fill="#e8d4bd"/>
+  <ellipse cx="600" cy="608" rx="208" ry="43" fill="#f2e3cf"/>
+  <path d="M 384 606 C 430 640 770 640 816 606" fill="none" stroke="#d6bda1" stroke-width="3" opacity="0.8"/>
+
+  <path d="M 748 432 C 882 418 914 548 790 582" fill="none" stroke="url(#cangkir)" stroke-width="46" stroke-linecap="round"/>
+  <path d="M 760 450 C 852 444 872 530 792 556" fill="none" stroke="#d9c0a2" stroke-width="4" opacity="0.35"/>
+
+  <path d="M 420 400 C 424 522 470 592 600 592 C 730 592 776 522 780 400 Z" fill="url(#cangkir)"/>
+  <path d="M 700 404 C 710 500 690 560 642 586 C 716 576 762 516 768 404 Z" fill="#d5bb9d" opacity="0.45"/>
+  <ellipse cx="600" cy="400" rx="180" ry="45" fill="#f9efe1"/>
+  <ellipse cx="600" cy="401" rx="158" ry="38" fill="#3b2113"/>
+  <ellipse cx="600" cy="400" rx="151" ry="34" fill="url(#kopi)"/>
+  <ellipse cx="547" cy="391" rx="58" ry="13" fill="#c98b5b" opacity="0.55" transform="rotate(-8 547 391)"/>
+  <g fill="#e0b98e" opacity="0.5">
+    <circle cx="640" cy="408" r="4"/>
+    <circle cx="655" cy="398" r="2.5"/>
+    <circle cx="628" cy="414" r="2"/>
+  </g>
+  <ellipse cx="600" cy="400" rx="180" ry="45" fill="none" stroke="#fffaf1" stroke-width="4" opacity="0.75"/>
+
+  <rect width="1200" height="800" fill="url(#vignet)"/>
+</svg>

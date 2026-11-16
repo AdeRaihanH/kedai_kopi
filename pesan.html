@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Formulir pemesanan minuman Kedai Kopi Senja. Isi nama, nomor WhatsApp, menu, jumlah, dan cara ambil.">
+  <title>Pesan Kedai Kopi Senja</title>
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+</head>
+<body>
+  <header>
+    <p><a href="index.html"><strong>Kedai Kopi Senja</strong></a></p>
+
+    <nav aria-label="Navigasi utama">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="pesan.html" aria-current="page">Pesan</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Pesan minuman</h1>
+    <p>Isi data di bawah ini, lalu tekan tombol Kirim. Kami akan mengonfirmasi pesanan lewat WhatsApp sebelum mulai menyiapkan minuman.</p>
+
+    <form action="pesan.html" method="get">
+      <p>
+        <label for="nama">Nama pemesan</label><br>
+        <input type="text" id="nama" name="nama" autocomplete="name" placeholder="Nama lengkap" required>
+      </p>
+
+      <p>
+        <label for="whatsapp">Nomor WhatsApp</label><br>
+        <input type="tel" id="whatsapp" name="whatsapp" autocomplete="tel" placeholder="0812 3456 7890" required>
+      </p>
+
+      <p>
+        <label for="menu">Pilihan menu</label><br>
+        <select id="menu" name="menu">
+          <option value="" selected>— Pilih menu —</option>
+          <optgroup label="Kopi">
+            <option value="espresso">Espresso — Rp 18.000</option>
+            <option value="kopi-susu-senja">Kopi Susu Senja — Rp 24.000</option>
+            <option value="cappuccino">Cappuccino — Rp 26.000</option>
+            <option value="v60">V60 Manual Brew — Rp 28.000</option>
+          </optgroup>
+          <optgroup label="Non Kopi">
+            <option value="teh-tarik">Teh Tarik — Rp 20.000</option>
+            <option value="matcha-latte">Matcha Latte — Rp 27.000</option>
+            <option value="cokelat-panas">Cokelat Panas — Rp 25.000</option>
+            <option value="es-jeruk">Es Jeruk Peras — Rp 16.000</option>
+          </optgroup>
+        </select>
+      </p>
+
+      <p>
+        <label for="jumlah">Jumlah</label><br>
+        <input type="number" id="jumlah" name="jumlah" min="1" max="10" value="1">
+      </p>
+
+      <fieldset>
+        <legend>Cara ambil</legend>
+        <input type="radio" id="ambil-di-tempat" name="cara_ambil" value="Ambil di tempat" checked>
+        <label for="ambil-di-tempat">Ambil di tempat</label><br>
+        <input type="radio" id="diantar" name="cara_ambil" value="Diantar">
+        <label for="diantar">Diantar</label>
+      </fieldset>
+
+      <p>
+        <label for="catatan">Catatan</label><br>
+        <textarea id="catatan" name="catatan" rows="4" placeholder="Contoh: tanpa gula, es sedikit, atau alamat bila diantar"></textarea>
+      </p>
+
+      <p><button type="submit">Kirim</button></p>
+    </form>
+  </main>
+
+  <footer>
+    <h2>Alamat</h2>
+    <address>
+      Departemen Teknik Komputer<br>
+      Jl. Prof. Soedarto, Tembalang, Kec. Tembalang,<br>
+      Kota Semarang, Jawa Tengah 50275<br>
+      <a href="tel:+6281393055199">081393055199</a><br>
+      <a href="mailto:aderaihanhanafig3@gmail.com">aderaihanhanafig3@gmail.com</a>
+    </address>
+
+    <h2>Jam buka</h2>
+    <p>
+      Senin–Jumat: 08.00–21.00<br>
+      Sabtu–Minggu: 09.00–22.00<br>
+      Libur nasional: 10.00–20.00
+    </p>
+
+    <p>© 2026 Kedai Kopi Senja.</p>
+  </footer>
+</body>
+</html>
