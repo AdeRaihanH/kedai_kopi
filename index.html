@@ -6,33 +6,37 @@
   <meta name="description" content="Kedai Kopi Senja, kedai kopi kecil di Jalan Melati, Bandung. Buka setiap hari dengan kopi arabika Pangalengan.">
   <title>Beranda Kedai Kopi Senja</title>
   <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <p><a href="index.html"><strong>Kedai Kopi Senja</strong></a></p>
+  <header class="situs-header">
+    <div class="wadah header-dalam">
+      <p class="merek"><a href="index.html">Kedai Kopi Senja</a></p>
 
-    <nav aria-label="Navigasi utama">
-      <ul>
-        <li><a href="index.html" aria-current="page">Beranda</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="pesan.html">Pesan</a></li>
-      </ul>
-    </nav>
+      <nav class="navigasi" aria-label="Navigasi utama">
+        <ul>
+          <li><a href="index.html" aria-current="page">Beranda</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="pesan.html">Pesan</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
+  <main class="wadah">
     <h1>Kopi yang diseduh pelan, ruang untuk pulang.</h1>
 
-    <p>Selamat datang di Kedai Kopi Senja. Kami kedai kecil di Jalan Melati, Bandung, tempat orang berhenti sebentar untuk menikmati kopi yang diracik dengan sabar.</p>
-    <p>Biji arabika kami dipetik dari kebun petani di Pangalengan dan disangrai dalam batch kecil setiap minggu. Selain kopi, tersedia minuman non kopi dan camilan ringan yang cocok untuk menemani obrolan sore.</p>
+    <p class="pendahuluan">Selamat datang di Kedai Kopi Senja. Kami kedai kecil di Jalan Melati, Bandung, tempat orang berhenti sebentar untuk menikmati kopi yang diracik dengan sabar.</p>
+    <p class="pendahuluan">Biji arabika kami dipetik dari kebun petani di Pangalengan dan disangrai dalam batch kecil setiap minggu. Selain kopi, tersedia minuman non kopi dan camilan ringan yang cocok untuk menemani obrolan sore.</p>
     <p><a href="menu.html">Lihat menu</a> · <a href="pesan.html">Pesan sekarang</a></p>
 
-    <p><img src="img/kedai-kopi.svg" alt="Ilustrasi cangkir kopi hangat berasap di atas meja kayu, ditemani tiga biji kopi" width="300" height="200"></p>
-    <p>Secangkir kopi susu senja, teman menutup hari.</p>
-    <section>
+    <p><img class="gambar-kedai" src="img/kedai-kopi.svg" alt="Ilustrasi cangkir kopi hangat berasap di atas meja kayu, ditemani tiga biji kopi" width="300" height="200"></p>
+    <p class="keterangan-gambar">Secangkir kopi susu senja, teman menutup hari.</p>
+
+    <section class="bagian">
       <h2>Jam buka</h2>
       <p>Kami buka setiap hari.</p>
-      <ul>
+      <ul class="daftar-jam">
         <li>Senin–Jumat: 08.00–21.00</li>
         <li>Sabtu–Minggu: 09.00–22.00</li>
         <li>Hari libur nasional: 10.00–20.00</li>
@@ -41,24 +45,30 @@
     </section>
   </main>
 
-  <footer>
-    <h2>Alamat</h2>
-    <address>
-      Departemen Teknik Komputer<br>
-      Jl. Prof. Soedarto, Tembalang, Kec. Tembalang,<br>
-      Kota Semarang, Jawa Tengah 50275<br>
-      <a href="tel:+6281393055199">081393055199</a><br>
-      <a href="mailto:aderaihanhanafig3@gmail.com">aderaihanhanafig3@gmail.com</a>
-    </address>
-
-    <h2>Jam buka</h2>
-    <p>
-      Senin–Jumat: 08.00–21.00<br>
-      Sabtu–Minggu: 09.00–22.00<br>
-      Libur nasional: 10.00–20.00
-    </p>
-
-    <p>© 2026 Kedai Kopi Senja.</p>
+  <footer class="situs-footer">
+    <div class="wadah footer-dalam">
+      <div class="footer-kolom">
+        <h2>Alamat</h2>
+        <address>
+          Departemen Teknik Komputer<br>
+          Jl. Prof. Soedarto, Tembalang, Kec. Tembalang,<br>
+          Kota Semarang, Jawa Tengah 50275<br>
+          <a href="tel:+6281393055199">081393055199</a><br>
+          <a href="mailto:aderaihanhanafig3@gmail.com">aderaihanhanafig3@gmail.com</a>
+        </address>
+      </div>
+      <div class="footer-kolom">
+        <h2>Jam buka</h2>
+        <p>
+          Senin–Jumat: 08.00–21.00<br>
+          Sabtu–Minggu: 09.00–22.00<br>
+          Libur nasional: 10.00–20.00
+        </p>
+      </div>
+    </div>
+    <div class="wadah">
+      <p class="hak-cipta">© 2026 Kedai Kopi Senja.</p>
+    </div>
   </footer>
 </body>
 </html>
